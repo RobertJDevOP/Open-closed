@@ -1,0 +1,18 @@
+{
+    "name": "solid/examples",
+    "description": "SOLID Examples",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto Jimenez",
+            "email": "rcjimenez35@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
