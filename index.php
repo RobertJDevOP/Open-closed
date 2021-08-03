@@ -24,7 +24,7 @@ $menu = new Menu();
 //Open closed
 
 
-// si mas adelante me piden otro formato puedo crear otra clase que se implemente  TextMenuOutput
+// si mas adelante me piden otro formato puedo crear otra clase que extienda de la interfaz para que el codigo pueda seguir funcionando sin problema
 echo $menu->view($shop->getProducts(),new TextMenuOutput());
 
 echo $menu->view($shop->getProducts(),new JsonMenuOutput());
